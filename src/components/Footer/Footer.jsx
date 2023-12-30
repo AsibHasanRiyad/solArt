@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
     <div className=" bg-[#343438] text-white text-justify">
-      <div className="grid grid-cols-3 px-[70px] pt-[80px] pb-[60px] gap-14 ">
+      <div className="grid grid-cols-1 xl:grid-cols-3 px-4 md:px-14 xl:px-[70px] pt-8 md:pt-[80px] pb-[60px] gap-4 md:gap-8 xl:gap-14 ">
         {/* first part */}
-        <div>
-          <h1 className=" text-5xl font-bold">Newsletter</h1>
-          <p className=" py-4 text-[14px]">
+        <div className=" order-1 md:order-none mb-4 md:mb-0">
+          <h1 className=" text-4xl font-semibold md:text-5xl md:font-bold">Newsletter</h1>
+          <p className=" py-4 md:text-[16px]">
             Lorem ipsum dolor sit amet consectetur. Diam nisl nisl eget vitae
             iaculis. Ut elementum quam vel sagittis faucibus. Lorem ipsum dolor
             sit amet consectetur.
@@ -13,17 +13,17 @@ const Footer = () => {
           <div>
             <div className="inline-flex" role="group">
               <input className=" bg-[#D5D2DA] border-none " type="text" />
-              <button className="bg-[#B98E75] px-10 py-5 text-[16px]">
+              <button className="bg-[#B98E75] px-5 md:px-10 py-3 md:py-5 text-[16px]">
                 ENTER
               </button>
             </div>
           </div>
         </div>
         {/* center part  */}
-        <div className=" grid grid-cols-2 gap-14 mt-5">
+        <div className=" order-3 md:order-none grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-14 mt-5">
             {/* center part 1 */}
           <div>
-            <h1 className=" text-[22px] mb-7 font-medium">OUR SERVICES</h1>
+            <h1 className=" text-[22px] mb-2 md:mb-7 font-medium">OUR SERVICES</h1>
             <div className=" space-y-5">
               <h1 className=" flex gap-4 items-center">
                 <svg
@@ -154,7 +154,7 @@ const Footer = () => {
           </div>
           {/* center part 2 */}
           <div>
-            <h1 className=" text-[22px] mb-7 font-medium">OUR SERVICES</h1>
+            <h1 className=" text-[22px] mb-2 md:mb-7 font-medium">OUR SERVICES</h1>
             <div>
               <h1>Architecture</h1>
               <div className=" flex gap-2 mt-1">
@@ -182,13 +182,13 @@ const Footer = () => {
           </div>
         </div>
         {/* last part  */}
-        <div>
+        <div className="order-2 md:order-none">
           <div className="flex items-center  gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 167 167"
               fill="none"
-              className=" h-9 w-9 lg:h-[69px] lg:w-[69px]"
+              className=" h-[69px] w-[69px]"
             >
               <path
                 d="M61.5263 30.7632C61.5263 47.7532 47.7532 61.5263 30.7632 61.5263C13.7731 61.5263 0 47.7532 0 30.7632C0 13.7731 13.7731 4.26125e-06 30.7632 4.26125e-06C47.7532 4.26125e-06 61.5263 13.7731 61.5263 30.7632Z"
@@ -207,7 +207,7 @@ const Footer = () => {
                 fill="#B98E75"
               />
             </svg>
-            <h1 className=" text-2xl lg:text-5xl font-bold text-white">
+            <h1 className="text-5xl font-bold text-white">
               SolArt
             </h1>
           </div>
@@ -320,10 +320,9 @@ const Footer = () => {
       </div>
       {/* copyright part */}
       <div>
-        <div className=" h-[1px] bg-white w-full"></div>
-        {/* footer arrow */}
-        <div className=" flex justify-center -mt-5">
-        <div className=" bg-[#B98E75] rounded-full p-2 h-7 w-7 xl:h-10 xl:w-10 flex">
+        <div className=" h-[1px] relative bg-white w-full">
+        <div className=" flex justify-center">
+        <div className=" bg-[#B98E75] rounded-full p-2 h-10 w-10 flex absolute right-8 md:right-1/2 -top-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -341,7 +340,9 @@ const Footer = () => {
           </svg>
         </div>
         </div>
-        <p className=" py-10 text-center">
+        </div>
+        {/* footer arrow */}
+        <p className=" py-5 md:py-10 text-center">
           Copyright by SoluArt © 2022. All rights reserved
         </p>
       </div>
