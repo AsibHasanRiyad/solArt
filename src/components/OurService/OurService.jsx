@@ -18,7 +18,7 @@ const OurService = () => {
         heading2={"Interior Design Services"}
       />
       {/* cards */}
-      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5 md:mt-12">
         {data?.map((card) => (
           <div key={data.number} className=" border-2 border-primary p-6">
             <div className=" flex items-start justify-between">
