@@ -14,6 +14,7 @@ const OurService = () => {
     <div className="px-4 md:px-14 xl:px-[70px] my-[46px] lg:my-[120px]">
       <Title
         title={"Our Service"}
+        color={'text-heading'}
         heading1={"We Provide Best  "}
         heading2={"Interior Design Services"}
       />

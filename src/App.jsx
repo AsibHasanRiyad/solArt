@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import OurService from "./components/OurService/OurService";
+import WhatWeDone from "./components/WhatWeDone/WhatWeDone";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Banner />
         <OurService />
         <About />
+        <WhatWeDone />
         <Footer />
       </div>
   );
