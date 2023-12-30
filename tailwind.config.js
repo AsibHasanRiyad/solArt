@@ -6,7 +6,11 @@ export default {
     'node_modules/preline/dist/*.js',
     ],
   theme: {
-    extend: {},
+    colors:{
+      heading:'#252531',
+      paragraph:'#343438',
+      primary:'#B98E75'
+    }
   },
   plugins: [
     require('flowbite/plugin')

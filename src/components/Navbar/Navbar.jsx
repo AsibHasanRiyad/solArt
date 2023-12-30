@@ -7,7 +7,7 @@ const Navbar = () => {
     setDropdownOpen(!isDropdownOpen);
   };
   return (
-    <div className=" absolute top-0 z-50 w-full bg-gradient-to-r from-gray-400/40 to-gray-50/20">
+    <div className=" absolute top-0 z-50 w-full max-w-[1440px] bg-gradient-to-r from-gray-400/40 to-gray-50/20">
       <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-transparent text-sm sm:py-0">
         <nav
           className="relative max-w-[85rem] w-full mx-auto sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
