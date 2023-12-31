@@ -1,8 +1,10 @@
 import "./styles/Style.css";
 const Stats = () => {
   return (
-    <div className=" relative">
-      <div className=" bg-primary text-white grid grid-cols-2 lg:grid-cols-4 gap-10 py-[90px] lg:py-[120px] mb-[0px] lg:mb-[120px]">
+
+     <div className="bg-primary  ">
+     <div className="max-w-[1440px] mx-auto relative">
+     <div className="  text-white grid grid-cols-2 lg:grid-cols-4 gap-10 py-[90px] lg:py-[120px] mb-[0px] lg:mb-[120px]">
         <div className=" text-center">
           <h1 className=" text-[38px] md:text-[60px] font-bold text-stroke text-[#D5D2DA] ">
             300
@@ -39,7 +41,7 @@ const Stats = () => {
       {/* svg */}
       <div className=" w-full px-10 mx-auto flex items-center">
         {/* Large device svg */}
-        <div className="hidden lg:block absolute top-7">
+        <div className="hidden lg:block absolute top-7 left-0">
           <svg
             width="1348"
             height="317"
@@ -125,6 +127,7 @@ const Stats = () => {
           </svg>
         </div>
       </div>
+     </div>
     </div>
   );
 };

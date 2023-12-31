@@ -1,4 +1,3 @@
-
 import About from "./components/About/About";
 import Banner from "./components/Banner/Banner";
 import Contact from "./components/Contact/Contact";
@@ -14,9 +13,9 @@ import WorkingSteps from "./components/WorkingSetps/WorkingSteps";
 
 const App = () => {
   return (
-      <div className=" max-w-[1440px] mx-auto overflow-hidden">
-        <Navbar />
-        <Banner />
+    <div className=" w-full overflow-hidden">
+      <Navbar />
+      <Banner />
         <OurService />
         <About />
         <OurProject />
@@ -27,7 +26,7 @@ const App = () => {
         <Stats />
         <Contact />
         <Footer />
-      </div>
+    </div>
   );
 };
 

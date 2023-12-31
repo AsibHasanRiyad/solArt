@@ -6,7 +6,7 @@ import Title from "../../shared/Title";
 
 const OurProject = () => {
   return (
-    <div className=" relative px-4 md:px-14 xl:px-[70px] py-[46px] lg:py-[120px]">
+    <div className=" max-w-[1440px] mx-auto relative px-4 md:px-14 xl:px-[70px] py-[46px] lg:py-[120px]">
       <div>
         <Title
           title={"Our Project"}

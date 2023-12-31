@@ -2,7 +2,8 @@ import Title from "../../shared/Title";
 
 const FeedBack = () => {
   return (
-    <div className=" relative pt-14 lg:pt-[120px] pb-[160px]">
+    <div className=" max-w-[1440px] mx-auto">
+      <div className=" relative pt-14 lg:pt-[120px] pb-[160px]">
       {/* Title */}
       <div className="px-4 md:px-14 xl:px-[70px]">
         <Title
@@ -228,6 +229,7 @@ const FeedBack = () => {
           </g>
         </svg>
       </div>
+    </div>
     </div>
   );
 };

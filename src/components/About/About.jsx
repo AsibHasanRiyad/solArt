@@ -1,6 +1,7 @@
 const About = () => {
   return (
-    <div className=" grid grid-cols-2 bg-[#343438] py-[70px] px-[40px] pt-14 lg:pt-[120px] gap-8">
+    <div className=" bg-[#343438]">
+      <div className=" grid grid-cols-2 max-w-[1440px] mx-auto py-[70px] px-[40px] pt-14 lg:pt-[120px] gap-8">
       <div className=" flex items-center">
         <img className=" h-80 md:h-full" src="https://i.ibb.co/JzkNFMz/Rectangle.jpg" alt="" />
       </div>
@@ -163,6 +164,7 @@ const About = () => {
           </h1>
         </div>
       </div>
+    </div>
     </div>
   );
 };

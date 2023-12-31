@@ -11,7 +11,8 @@ const OurService = () => {
   }, []);
   console.log(data);
   return (
-    <div className=" relative px-4 md:px-14 xl:px-[70px] my-[46px] lg:my-[120px]">
+    <div className=" max-w-[1440px] mx-auto">
+      <div className=" relative px-4 md:px-14 xl:px-[70px] my-[46px] lg:my-[120px]">
       <Title
         title={"Our Service"}
         color={"text-heading"}
@@ -75,6 +76,7 @@ const OurService = () => {
   <path opacity="0.5" d="M20.3837 25.5929L20.4346 36.1416C20.4415 37.5605 19.0097 38.5351 17.6922 38.0083L5.15904 32.9972C3.51576 32.3402 3.47279 30.0297 5.0905 29.312L17.5726 23.7744C18.8913 23.1894 20.3767 24.1504 20.3837 25.5929Z" fill="#B98E75"/>
 </svg>
       </div>
+    </div>
     </div>
   );
 };

@@ -2,7 +2,8 @@ import Title from "../../shared/Title";
 
 const MeetOurTeam = () => {
   return (
-    <div className="px-4 md:px-14 xl:px-[70px] pb-[50px] lg:pb-[180px]">
+   <div className=" max-w-[1440px] mx-auto">
+     <div className="px-4 md:px-14 xl:px-[70px] pb-[50px] lg:pb-[180px]">
       <div>
         <Title
           title={"Meet Our Team"}
@@ -18,6 +19,7 @@ const MeetOurTeam = () => {
         <img src="https://i.ibb.co/vX2Djxk/Team-Card-4.png" alt="" />
       </div>
     </div>
+   </div>
   );
 };
 

@@ -3,7 +3,7 @@ import Title from "../../shared/Title";
 const WhatWeDone = () => {
   return (
     <div className="relative">
-      <div className="px-4 md:px-14 xl:px-[70px]">
+      <div className="px-4 md:px-14 xl:px-[70px] max-w-[1440px] mx-auto">
         <Title
           title={"What We Done"}
           color={"text-heading"}
@@ -20,7 +20,8 @@ const WhatWeDone = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="px-4 md:px-14 xl:px-[70px]">
+       <div className="max-w-[1440px] mx-auto">
+       <div className="px-4 md:px-14 xl:px-[70px] ">
           <Title
             title={"Discover"}
             color={"text-white"}
@@ -52,6 +53,7 @@ const WhatWeDone = () => {
             <span className=" text-[28px] font-medium">Dhaka, Bangladesh</span>
           </h1>
         </div>
+       </div>
       </div>
     </div>
   );

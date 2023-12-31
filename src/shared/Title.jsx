@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 const Title = ({title, heading1, heading2, color}) => {
   return (
-    <div className={`${color}`}>
+    <div className="">
+      <div className={`${color}`}>
         <div className=" flex gap-4 items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -22,6 +23,7 @@ const Title = ({title, heading1, heading2, color}) => {
         <h1 className=" text-[22px]  md:text-5xl font-medium md:font-bold">
         {heading2}
         </h1>
+    </div>
     </div>
     </div>
   );

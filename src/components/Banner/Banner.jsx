@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div
-      className="relative h-screen bg-cover bg-center flex items-center pl-4 md:pl-8 lg:pl-[70px]"
+      className="relative w-full h-screen bg-cover bg-center flex items-center pl-4 md:pl-8 lg:pl-[70px]"
       style={{
         backgroundImage: `url('https://i.ibb.co/9cZC1Mm/Untitled-design.jpg')`,
         backgroundSize:'cover',
