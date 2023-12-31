@@ -15,7 +15,7 @@ const OurProject = () => {
         />
       </div>
       {/* images */}
-      <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-x-24 md:gap-y-14 xl:gap-24 mt-10">
+      <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-x-24 md:gap-y-14 xl:gap-24 mt-5 md:mt-10">
         {/* image 1 */}
         <div className=" relative">
           <img

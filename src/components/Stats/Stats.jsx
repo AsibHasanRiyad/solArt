@@ -2,7 +2,7 @@ import "./styles/Style.css";
 const Stats = () => {
   return (
     <div className=" relative">
-      <div className=" bg-primary text-white grid grid-cols-2 lg:grid-cols-4 gap-10 py-[90px] lg:py-[120px] mb-[120px]">
+      <div className=" bg-primary text-white grid grid-cols-2 lg:grid-cols-4 gap-10 py-[90px] lg:py-[120px] mb-[0px] lg:mb-[120px]">
         <div className=" text-center">
           <h1 className=" text-[38px] md:text-[60px] font-bold text-stroke text-[#D5D2DA] ">
             300
@@ -86,7 +86,7 @@ const Stats = () => {
           </svg>
         </div>
         {/* for mobile and tablet */}
-        <div className=" block lg:hidden w-[430px] md:w-[800px] absolute top-8 left-0 ">
+        <div className=" block lg:hidden w-[430px] md:w-[800px] h-[450px] overflow-hidden absolute top-8 left-0 ">
           <svg
             // height="344"
             viewBox="0 0 390 344"

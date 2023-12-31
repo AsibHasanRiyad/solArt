@@ -2,7 +2,7 @@ import Title from "../../shared/Title";
 
 const MeetOurTeam = () => {
   return (
-    <div className="px-4 md:px-14 xl:px-[70px] pb-[180px]">
+    <div className="px-4 md:px-14 xl:px-[70px] pb-[50px] lg:pb-[180px]">
       <div>
         <Title
           title={"Meet Our Team"}
@@ -11,7 +11,7 @@ const MeetOurTeam = () => {
         />
       </div>
       {/* member image */}
-      <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
+      <div className=" grid grid-cols-2 md:grid-cols-4 gap-4 mt-4 md:mt-10">
         <img src="https://i.ibb.co/2cj4p63/Team-Card-3.png" alt="" />
         <img src="https://i.ibb.co/h7JksvJ/Team-Card-2.png" alt="" />
         <img src="https://i.ibb.co/jH7H03s/Team-Card.png" alt="" />

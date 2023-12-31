@@ -2,7 +2,7 @@ import Title from "../../shared/Title";
 
 const WhatWeDone = () => {
   return (
-    <div className="  pb-[120px] relative">
+    <div className=" pb-14 md:pb-[120px] relative">
       <div className="px-4 md:px-14 xl:px-[70px]">
         <Title
           title={"What We Done"}
@@ -13,7 +13,7 @@ const WhatWeDone = () => {
       </div>
       {/* image section */}
       <div
-        className=" mt-10 py-[140px] lg:py-[240px] bg-gradient-to-r from-[#232358] to-transparent"
+        className=" mt-5 md:mt-10 py-[140px] lg:py-[240px] bg-gradient-to-r from-[#232358] to-transparent"
         style={{
           backgroundImage: `url('https://i.ibb.co/n6nLNk1/Untitled-design-1.jpg')`,
           backgroundSize: "cover",

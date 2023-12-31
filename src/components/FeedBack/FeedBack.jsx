@@ -12,7 +12,7 @@ const FeedBack = () => {
         />
       </div>
       {/* main image div */}
-      <div className=" pt-10">
+      <div className=" pt-5 md:pt-10">
         <div className=" relative">
           <img
             className=" min-h-[361px]"
