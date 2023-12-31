@@ -21,17 +21,17 @@ const FeedBack = () => {
           />
 
           {/* What our client says  card*/}
-          <div className=" absolute top-52 right-8 md:right-16 h-[243px] w-[243px] md:h-fit lg:w-fit max-w-[440px] bg-white text-center py-2 md:py-9 shadow-lg shadow-gray-300">
-            <h1 className=" text-base md:text-[22px] font-medium text-heading pb-2 md:pb-3">
+          <div className=" absolute top-52 md:top-32 xl:top-52 right-8 lg:right-16 h-[243px] md:h-[350px] w-[243px] md:w-[350px] lg:h-fit lg:w-fit max-w-[440px] bg-white text-center py-2 md:py-9 shadow-lg shadow-gray-300">
+            <h1 className=" text-base lg:text-[22px] font-medium text-heading pb-2 md:pb-3">
               WHAT CLIENT&apos;S SAY?
             </h1>
             <div className=" h-[1px] bg-primary w-full"></div>
-            <p className=" hidden md:block mt-2 mb-14 text-[14px] px-4 md:text-base text-paragraph text-center">
+            <p className=" hidden lg:block mt-2 mb-14 text-[14px] px-4 md:text-base text-paragraph text-center">
               Lorem ipsum dolor sit amet consectetur. Elit ac vel nec augue
               pharetra lectus duis. Nullam dignissim pretium egestas non turpis
               turpis purus lobortis.
             </p>
-            <p className=" block md:hidden mt-2 mb-4 text-[12px] px-4 md:px-0 md:text-base text-paragraph text-center">
+            <p className=" block lg:hidden mt-2 mb-4 text-[12px] px-4 md:px-0 md:text-base text-paragraph text-center">
               Lorem ipsum dolor sit amet consectetur. Elit ac vel nec augue
               pharetra lectus duis.
             </p>
@@ -43,14 +43,14 @@ const FeedBack = () => {
                 src="https://i.ibb.co/nfbsZRY/Ellipse-88.png"
                 alt=""
               />
-              <h1 className=" text-base md:text-[22px] font-medium text-heading">
+              <h1 className=" text-base lg:text-[22px] font-medium text-heading">
                 Johan Smith
               </h1>
               <p className=" text-[14px] md:text-base text-paragraph">
                 Manager Of Alco. LTD
               </p>
               {/* dot */}
-              <div className=" pt-2 md:pt-8">
+              <div className=" pt-2 lg:pt-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="60"
@@ -82,7 +82,7 @@ const FeedBack = () => {
             </div>
           </div>
           {/* view promo video */}
-          <div className="absolute top-8 left-14 md:top-36 md:left-48 flex flex-col items-center justify-center">
+          <div className="absolute top-8 left-14 md:top-20 md:left-24 xl:top-36 xl:left-48 flex flex-col items-center justify-center">
             <div className="h-[62px] w-[62px] md:h-[100px] md:w-[100px]">
               <svg
                 viewBox="0 0 114 114"
@@ -102,7 +102,7 @@ const FeedBack = () => {
               </svg>
             </div>
 
-            <h1 className=" text-base md:text-[22px] text-white font-normal md:font-medium ">
+            <h1 className=" text-base lg:text-[22px] text-white font-normal md:font-medium ">
               VIEW PROMO VIDEO
             </h1>
           </div>
