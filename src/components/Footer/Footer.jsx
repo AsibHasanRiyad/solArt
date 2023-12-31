@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className=" bg-[#343438] text-white text-justify">
+    <div className=" relative bg-[#343438] text-white text-justify">
       <div className="grid grid-cols-1 xl:grid-cols-3 px-4 md:px-14 xl:px-[70px] pt-8 md:pt-[80px] pb-[60px] gap-4 md:gap-8 xl:gap-14 ">
         {/* first part */}
         <div className=" order-1 md:order-none mb-4 md:mb-0">
@@ -345,6 +345,19 @@ const Footer = () => {
         <p className=" py-5 md:py-10 text-center">
           Copyright by SoluArt © 2022. All rights reserved
         </p>
+      </div>
+      {/* mobile svg */}
+      <div className=" absolute bottom-60 right-0 block md:hidden">
+      <svg width="201" height="286" viewBox="0 0 201 286" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.4">
+<circle cx="114.57" cy="20" r="14.5" stroke="#B98E75"/>
+<circle cx="114.57" cy="20" r="9.5" stroke="#B98E75"/>
+<circle cx="114.57" cy="20" r="19.5" stroke="#B98E75"/>
+</g>
+<path opacity="0.3" d="M359.804 271.563C342.404 277.541 299.405 287.84 266.608 281.215C225.612 272.933 190.572 237.156 160.55 239.926C130.527 242.696 118.436 278.689 84.0599 269.215C49.6838 259.741 47.9628 221.848 18.1948 211.074" stroke="#B98E75" stroke-width="4" stroke-dasharray="8 8"/>
+<path opacity="0.5" d="M16.4525 216.686L20.5279 204.658C20.9833 203.314 19.9333 201.937 18.5168 202.02L2.29475 202.97C0.528006 203.073 -0.243649 205.252 1.06397 206.444L13.2106 217.522C14.2764 218.494 15.9896 218.052 16.4525 216.686Z" fill="#B98E75"/>
+</svg>
+
       </div>
     </div>
   );
