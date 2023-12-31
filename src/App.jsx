@@ -5,6 +5,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import MeetOurTeam from "./components/MeetOurTeam/MeetOurTeam";
 import Navbar from "./components/Navbar/Navbar";
+import OurProject from "./components/OurProject/OurProject";
 import OurService from "./components/OurService/OurService";
 import Stats from "./components/Stats/Stats";
 import WhatWeDone from "./components/WhatWeDone/WhatWeDone";
@@ -17,6 +18,7 @@ const App = () => {
         <Banner />
         <OurService />
         <About />
+        <OurProject />
         <WorkingSteps />
         <MeetOurTeam />
         <WhatWeDone />
