@@ -132,7 +132,7 @@ const WorkingSteps = () => {
         </svg>
       </div>
       {/* small device svg */}
-      <div className=" block md:hidden absolute top-5 left-0">
+      <div className=" block md:hidden absolute top-5 left-0 -z-50">
         <svg
           width="420"
           height="488"
