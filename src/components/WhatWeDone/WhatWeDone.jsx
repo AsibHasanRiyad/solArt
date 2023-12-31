@@ -2,7 +2,7 @@ import Title from "../../shared/Title";
 
 const WhatWeDone = () => {
   return (
-    <div className=" pb-14 md:pb-[120px] relative">
+    <div className="relative">
       <div className="px-4 md:px-14 xl:px-[70px]">
         <Title
           title={"What We Done"}
