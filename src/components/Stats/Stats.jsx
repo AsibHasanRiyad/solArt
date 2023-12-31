@@ -4,7 +4,7 @@ const Stats = () => {
 
      <div className="bg-primary  ">
      <div className="max-w-[1440px] mx-auto relative">
-     <div className="  text-white grid grid-cols-2 lg:grid-cols-4 gap-10 py-[90px] lg:py-[120px] mb-[0px] lg:mb-[120px]">
+     <div className="  text-white grid grid-cols-2 lg:grid-cols-4 gap-10 py-[90px] lg:py-[120px] px-0 xl:px-[120px] mb-[0px] lg:mb-[120px]">
         <div className=" text-center">
           <h1 className=" text-[38px] md:text-[60px] font-bold text-stroke text-[#D5D2DA] ">
             300

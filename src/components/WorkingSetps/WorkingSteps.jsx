@@ -4,7 +4,7 @@ import Title from "../../shared/Title";
 const WorkingSteps = () => {
   return (
     <div className="bg-paragraph">
-      <div className=" relative z-50 max-w-[1440px] mx-auto  px-4 md:px-14 xl:px-[70px] pt-9 pb-16 mb-14 lg:mb-[120px]">
+      <div className=" relative z-50 max-w-[1440px] mx-auto  px-4 md:px-14 xl:px-[70px] pt-9 pb-16">
       {/* title */}
       <div className=" flex justify-end">
         <Title
