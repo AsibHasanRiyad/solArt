@@ -21,7 +21,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className=" h-24 w-[1px] bg-primary"></div>
+        <div className=" block md:hidden h-24 w-[1px] bg-primary"></div>
         {/*  */}
         <div className=" flex-auto flex justify-center items-center pt-10 pb-16 md:border-r-2 mt-6 md:mt-2 border-r-primary ">
           <div>

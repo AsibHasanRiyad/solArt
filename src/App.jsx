@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import MeetOurTeam from "./components/MeetOurTeam/MeetOurTeam";
 import Navbar from "./components/Navbar/Navbar";
 import OurService from "./components/OurService/OurService";
+import Stats from "./components/Stats/Stats";
 import WhatWeDone from "./components/WhatWeDone/WhatWeDone";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <About />
         <MeetOurTeam />
         <WhatWeDone />
+        <Stats />
         <Contact />
         <Footer />
       </div>
