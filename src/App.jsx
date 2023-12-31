@@ -1,6 +1,7 @@
 
 import About from "./components/About/About";
 import Banner from "./components/Banner/Banner";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import MeetOurTeam from "./components/MeetOurTeam/MeetOurTeam";
 import Navbar from "./components/Navbar/Navbar";
@@ -16,6 +17,7 @@ const App = () => {
         <About />
         <MeetOurTeam />
         <WhatWeDone />
+        <Contact />
         <Footer />
       </div>
   );
