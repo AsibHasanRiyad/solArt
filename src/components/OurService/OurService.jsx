@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Number from "../../shared/Number";
 import Title from "../../shared/Title";
+import './Style/service.css'
 
 const OurService = () => {
   const [data, setData] = useState([]);
@@ -26,7 +26,7 @@ const OurService = () => {
               <div className=" h-[108px] w-[108px] lg:w-[156px] lg:h-[156px] ">
                 <img src={card?.imageSrc} alt="" />
               </div>
-              <Number number={card?.number} />
+                <h1 className=" text-stroke-2 text-[60px] font-bold text-transparent">{card?.number}</h1>
             </div>
             <div>
               <h1 className=" text-heading font-semibold text-[28px] lg:text-5xl mt-5">

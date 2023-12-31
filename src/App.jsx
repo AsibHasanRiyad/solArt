@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar/Navbar";
 import OurService from "./components/OurService/OurService";
 import Stats from "./components/Stats/Stats";
 import WhatWeDone from "./components/WhatWeDone/WhatWeDone";
+import WorkingSteps from "./components/WorkingSetps/WorkingSteps";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Banner />
         <OurService />
         <About />
+        <WorkingSteps />
         <MeetOurTeam />
         <WhatWeDone />
         <Stats />
