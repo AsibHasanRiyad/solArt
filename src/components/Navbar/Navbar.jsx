@@ -7,16 +7,39 @@ const Navbar = () => {
     setDropdownOpen(!isDropdownOpen);
   };
   return (
-    <div className="absolute top-0 z-50 w-full bg-gradient-to-r from-gray-400/40 to-gray-50/20">
+    <div className="absolute top-0 z-50 w-full  bg-gradient-to-r from-gray-400/40 to-gray-50/20">
       <header className="z-50 flex flex-wrap w-full text-sm bg-transparent sm:justify-start sm:flex-nowrap sm:py-0">
         <nav
           className="relative max-w-[85rem] w-full mx-auto sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
           aria-label="Global"
         >
-          <div className="flex items-center justify-between bg-[#000000]">
-            <div className="flex items-center justify-between gap-3 bg-[#242020] w-max h-full px-5 py-2.5 lg:px-8 lg:py-5">
-              <h1 className="text-2xl font-bold lg:text-5xl text-primary ">
-                DubaiBD
+          <div className="flex items-center justify-between bg-[#2D2D36]">
+            <div className="flex items-center justify-between gap-3 bg-[#2D2D36] w-max h-full px-5 py-2.5 lg:px-8 lg:py-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 167 167"
+                fill="none"
+                className=" h-9 w-9 lg:h-[69px] lg:w-[69px]"
+              >
+                <path
+                  d="M61.5263 30.7632C61.5263 47.7532 47.7532 61.5263 30.7632 61.5263C13.7731 61.5263 0 47.7532 0 30.7632C0 13.7731 13.7731 4.26125e-06 30.7632 4.26125e-06C47.7532 4.26125e-06 61.5263 13.7731 61.5263 30.7632Z"
+                  fill="#B98E75"
+                />
+                <path
+                  d="M131.842 101.079C131.842 118.069 118.069 131.842 101.079 131.842C84.0889 131.842 70.3158 118.069 70.3158 101.079C70.3158 84.0889 84.0889 70.3158 101.079 70.3158C118.069 70.3158 131.842 84.0889 131.842 101.079Z"
+                  fill="#B98E75"
+                />
+                <path
+                  d="M0 70.3158H30.7632C47.7532 70.3158 61.5263 84.0889 61.5263 101.079V167H30.7632C13.7731 167 0 153.227 0 136.237V70.3158Z"
+                  fill="#B98E75"
+                />
+                <path
+                  d="M70.3158 61.5263V30.7632C70.3158 13.7731 84.0889 3.62416e-06 101.079 2.8815e-06L167 0V30.7632C167 47.7532 153.227 61.5263 136.237 61.5263L70.3158 61.5263Z"
+                  fill="#B98E75"
+                />
+              </svg>
+              <h1 className="text-2xl font-bold text-white  lg:text-5xl">
+                SolArt
               </h1>
             </div>
             <div className="flex items-center py-4 mr-3 sm:hidden">
@@ -37,11 +60,11 @@ const Navbar = () => {
                     />
                   </svg>
                 </div>
-                <div className="space-y-1 text-start lg:space-y-2">
+                <div className="space-y-1  text-start lg:space-y-2">
                   <h1 className=" text-sm xl:text-[22px] font-medium">
                     Call Anytime
                   </h1>
-                  <p className="text-xs xl:text-base">+0987654321</p>
+                  <p className="text-xs  xl:text-base">+0987654321</p>
                 </div>
               </div>
               <button
@@ -152,7 +175,7 @@ const Navbar = () => {
                   type="button"
                   className="flex items-center w-full justify-end pr-10 md:pr-0 text-white font-medium text-4 xl:text-[22px]"
                 >
-                  Portfolio
+                  Project
                   <svg
                     className="flex-shrink-0 w-4 h-4 ms-2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -196,7 +219,7 @@ const Navbar = () => {
                   type="button"
                   className="flex items-center w-full justify-end pr-10 md:pr-0 text-white font-medium text-4 xl:text-[22px]"
                 >
-                  Blog
+                  News
                   <svg
                     className="flex-shrink-0 w-4 h-4 ms-2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -224,7 +247,7 @@ const Navbar = () => {
               <div>
                 {/* Call Info */}
                 <div className="items-center hidden gap-3 pl-2 text-white sm:flex xl:pl-5">
-                  <div className="p-2 bg-white rounded-full h-7 w-7 xl:h-10 xl:w-10">
+                  <div className="p-2 bg-white rounded-full  h-7 w-7 xl:h-10 xl:w-10">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -239,11 +262,11 @@ const Navbar = () => {
                       />
                     </svg>
                   </div>
-                  <div className="space-y-1 text-start lg:space-y-2">
+                  <div className="space-y-1  text-start lg:space-y-2">
                     <h1 className=" text-sm xl:text-[22px] font-medium">
                       Call Anytime
                     </h1>
-                    <p className="text-xs xl:text-base">+0987654321</p>
+                    <p className="text-xs  xl:text-base">+0987654321</p>
                   </div>
                 </div>
               </div>
